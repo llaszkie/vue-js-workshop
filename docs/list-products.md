@@ -1,7 +1,7 @@
 # List products
 Now that we have our environment set up we can get to the fun stuff. An e-commerce site obviously needs products. And to be able to manage them we first need to see them so let's start there.
 
-You can start off from the`exercise-files/list-products` folder where I have already setup a project boilerplate with vue-cli and the Twitter Bootstrap CSS framework. Remember to run `npm install` from the project root to install all dependencies.
+You can start off from the`exercise-files/list-products` folder where I have already setup a project boilerplate with vue-cli and the Twitter Bootstrap CSS framework. Remember to run `yarn` from the project root to install all dependencies.
 
 ## Create the ProductList component
 
@@ -121,7 +121,7 @@ export default {
 </script>
 ```
 
-Now open up the command line, run `npm run dev` from the project root, point your browser to http://localhost:8080 and watch your beautiful product list.
+Now open up the command line, run `yarn dev` from the project root, point your browser to http://localhost:8080 and watch your beautiful product list.
 
 ![Product list image](/docs/images/product-list.png)
 

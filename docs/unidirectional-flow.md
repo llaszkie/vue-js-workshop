@@ -15,7 +15,7 @@ The state from the components is extracted and put in a single place (_the store
 Now that you know some of the benefits of a unidirectional flow let's begin.
 
 ```bash
-npm install --save vuex
+yarn add vuex
 ```
 
 Create the store in `src/vuex/store.js`
@@ -279,7 +279,7 @@ export default {
 }
 ```
 
-We are done! Run your application if you haven't already with `npm run dev`, fire up your browser and surf to [http://localhost:8080](http://localhost:8080) and everything should look exactly the same as before with the exception of the `ProductCatalog`. Woohoo!
+We are done! Run your application if you haven't already with `yarn dev`, fire up your browser and surf to [http://localhost:8080](http://localhost:8080) and everything should look exactly the same as before with the exception of the `ProductCatalog`. Woohoo!
 
 This may seem like a lot of work and it surely is. In small applications it's probably not worth the hassle but as your application grows, when you find yourself passing data and functions as properties through components that doesn't care about it and when you no longer feel in control of what state your application is in then it's time to really think about using a unidirectional flow as you will most certainly benefit from it in the end.
 

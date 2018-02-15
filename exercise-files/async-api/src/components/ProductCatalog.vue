@@ -1,6 +1,6 @@
 <template>
   <section>
-    <ul v-for="product in products" track-by="id">
+    <ul v-for="product in products" :key="product.id">
       <li>{{product.name}}</li>
     </ul>
   </section>

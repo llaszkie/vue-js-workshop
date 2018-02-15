@@ -39,10 +39,7 @@ export default {
     products: 'getProducts'
   }),
   methods: {
-    ...mapActions([
-      'saveProduct',
-      'deleteProduct'
-    ]),
+    ...mapActions(['saveProduct', 'deleteProduct']),
     onFormSave (product) {
       this.saveProduct(product)
 

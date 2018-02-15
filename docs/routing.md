@@ -6,7 +6,7 @@ so routing is not included by default and so we need to install it first.
 In the `/exercise-files/routing/` folder.
 
 ```bash
-npm install --save vue-router
+yarn add vue-router
 ```
 
 Adding the router to the Vue instance is straight forward.

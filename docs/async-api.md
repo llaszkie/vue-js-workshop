@@ -15,7 +15,7 @@ You can find an example implementation of an API in the `/api` folder with the f
 First of we should start the api application. From the `/api` folder.
 
 ```bash
-npm start
+yarn start
 ```
 
 **NOTE!** If you want to reset the products at any time just restart the API server.
@@ -29,7 +29,7 @@ Now that we have our API up and running it's time to connect our Vue app to it.
 
 We will be using [vue-resource](https://github.com/vuejs/vue-resource) to make our API requests. Inside the `/exercise-files/async-api/` folder install vue-resource.
 ```
-npm install --save vue-resource
+yarn add vue-resource
 ```
 
 **NOTE!**
@@ -130,7 +130,7 @@ export default {
 </script>
 ```
 
-Test it out! `npm run dev` from the console and go to [http://localhost:8080](http://localhost:8080).
+Test it out! `yarn dev` from the console and go to [http://localhost:8080](http://localhost:8080).
 
 Implement the remaining actions.
 ```javascript

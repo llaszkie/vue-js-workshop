@@ -4,9 +4,9 @@ Simple projects don't need more then some HTML, CSS and javascript but soon enou
 
 Luckily there is a simple Command line tool called [vue-cli](https://github.com/vuejs/vue-cli) that you can use to quickly scaffold a new project with all the bells and whistles that modern web developers use.
 
-You can install it globally with NPM
+You can install it globally with YARN
 ```bash
-npm install -g vue-cli
+yarn global add vue-cli
 ```
 
 Then all you would need to do is run the command below. You will be able to customize your setup with some yes/no questions.

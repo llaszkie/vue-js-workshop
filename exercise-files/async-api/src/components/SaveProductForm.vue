@@ -68,7 +68,7 @@ export default {
 </script>
 
 <style scoped>
-  form {
-    margin-bottom: 24px;
-  }
+form {
+  margin-bottom: 24px;
+}
 </style>

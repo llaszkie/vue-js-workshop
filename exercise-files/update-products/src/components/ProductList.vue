@@ -8,7 +8,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="product in products" track-by="id">
+      <tr v-for="product in products" :key="product.id">
         <td>{{product.name}}</td>
         <td>{{product.description}}</td>
         <td>{{product.price}}:-</td>

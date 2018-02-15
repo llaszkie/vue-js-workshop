@@ -8,14 +8,14 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="product in products" track-by="id" v-on:click.prevent="onEdit(product)">
+      <tr v-for="product in products" :key="product.id" v-on:click.prevent="onEdit(product)">
         <td>{{product.name}}</td>
         <td>{{product.description}}</td>
         <td>{{product.price}}:-</td>
       </tr>
     </tbody>
   </table>
-</template>
+</template> 
 
 <script>
 export default {

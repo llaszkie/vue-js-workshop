@@ -10,7 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="product in products" track-by="id" v-on:click.prevent="onEdit(product)">
+      <tr v-for="product in products" :key="product.id" v-on:click.prevent="onEdit(product)">
         <td>
           <img v-if="product.imageUrl" v-bind:src="product.imageUrl" alt="Product image" class="product-image">
           <img v-else src="../assets/product_placeholder.svg" alt="Product image" class="product-image">
