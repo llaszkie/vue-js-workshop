@@ -118,7 +118,7 @@ Map our `getProducts()` getter as a computed property in the `ProductCatalog`.
 <!-- src/components/ProductCatalog.vue -->
 <template>
   <section>
-    <ul v-for="product in products" track-by="id">
+    <ul v-for="product in products" :key="product.id">
       <li>{{product.name}}</li>
     </ul>
   </section>
