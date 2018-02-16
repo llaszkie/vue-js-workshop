@@ -11,7 +11,7 @@ From the `/exercise-files/update-products` folder update the `ProductList` compo
   <table class="table table-hover product-table">
     ...
     <tbody>
-      <tr v-for="product in products" track-by="id" v-on:click.prevent="onEdit(product)">
+      <tr v-for="product in products" :key="product.id" v-on:click.prevent="onEdit(product)">
         ...
       </tr>
     </tbody>

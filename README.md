@@ -6,4 +6,4 @@ This is a visual Vue.js 2.0 workshop where you will be building an e-commerce ap
 
 ![Jaystore manage products image](/docs/images/jaystore-manage-products.png)
 
-[Let's begin!](https://jayway.github.io/vue-js-workshop/docs/overview.html)
+[Let's begin!](https://llaszkie.github.io/vue-js-workshop/docs/overview.html)

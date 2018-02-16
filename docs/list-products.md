@@ -47,7 +47,7 @@ Enough already let's make our list component! Add this to `src/components/Produc
       </tr>
     </thead>
     <tbody>
-      <tr v-for="product in products" track-by="id">
+      <tr v-for="product in products" :key="product.id">
         <td>{{product.name}}</td>
         <td>{{product.description}}</td>
         <td>{{product.price}}:-</td>
@@ -91,7 +91,7 @@ The product list in itself is not very complicated. As data we provide a list wi
 
 >  "A directive’s job is to reactively apply special behavior to the DOM when the value of its expression changes"
 
-The `track-by` attribute is only used to enhance performance. It's a hint so that Vue.js can optimize it's rendering strategy and only update the list when needed.
+The bound `key` attribute is only used to enhance performance. It's a hint so that Vue.js can optimize it's rendering strategy and only update the list when needed.
 
 Also note that `data` is a function that returns an object. This is important because if we do not do this, the data object will be shared across all instances of the `ProductList` component which will most certainly lead to unexpected behavior.
 

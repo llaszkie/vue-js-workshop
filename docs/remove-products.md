@@ -13,7 +13,7 @@ component.
   <table class="table table-hover product-table">
     ...
     <tbody>
-      <tr v-for="product in products" track-by="id" v-on:click.prevent="onEdit">
+      <tr v-for="product in products" :key="product.id" v-on:click.prevent="onEdit">
         ...
         <td><a href="#" v-on:click.prevent.stop="onRemove(product.id)">remove</a></td>
       </tr>
